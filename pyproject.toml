@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "multi-provider-configuration"
+version = "0.1.0"
+description = "Demo repo for configuration"
+authors = ["Abeeb Amoo <abeebamoo@microsoft.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10, <4.0"
+azure-identity = "^1.18.0"
+azure-keyvault = "^4.2.0"
+azure-keyvault-secrets = "^4.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
