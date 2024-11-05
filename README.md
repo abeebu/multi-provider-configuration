@@ -9,6 +9,6 @@ With the approach in this repository, all of the configuration logic is abstract
 ## Basic Usage
 
 1. If not already installed, install [Poetry](https://python-poetry.org/docs/).
-2. Run `poetry install` to install dependencies
+2. Run `poetry install` to install dependencies.
 3. Run the command `poetry run python -m src.app` to test the module.
 4. You should see "Alan Turing" in your console!
